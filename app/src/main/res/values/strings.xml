@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Bienvenu les loulou</string>
+    <string name="app_name">Bienvenue les loulous</string>
+    <string name="departement">Département \nInformatique</string>
+    <string name="accesService">Comment accéder aux services de l\'IUT ?</string>
+    <string name="contact">Contacter l\'IUT</string>
+    <string name="contactCorp">Téléphone IUT : 05.65.77.10.80\nTéléphone secrétariat : 05.65.77.15.62\nEmail : informatique@iut-rodez.fr</string>
+    <string name="lien">Lien utiles</string>
+    <string name="lienCorp">Messagerie : www.mail.google.com \nEmploi du temps : www.ut-capitole.fr \nPortailétudiant : etudiant.iut-rodez.fr"</string>
+    <string name="session">Ouvrir une session dans une salle machine</string>
+    <string name="sessionCorp">Identifiant IUT : prenom.nom \nMot de passe initial : jjmmcccc</string>
+    <string name="service">Utiliser les services de l\'Université Capitole</string>
+    <string name="serviceCorp">www.ut-capitole.fr\nAccéderàmon espace : cliquer sur ENT \nldentifiant Capitole : 8 derniers chiffres numéro étudiant\nMot de passe Capitole : 6 derniers caractères numéro INE</string>
+
 </resources>
