@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bienvenue les loulous</string>
+    <string name="app_name">Information IUT</string>
     <string name="departement">Département \nInformatique</string>
     <string name="accesService">Comment accéder aux services de l\'IUT ?</string>
     <string name="contact">Contacter l\'IUT</string>
