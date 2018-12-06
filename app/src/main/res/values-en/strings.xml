@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Information IUT</string>
+    <string name="departement">Computer Science \nDepartment</string>
+    <string name="accesService">How to reach IUT services?</string>
+    <string name="contact">How to contact IUT？</string>
+    <string name="contactCorp">
+        IUT phone number: 0033 565 77 10 80
+        \nSecretary\'s office phone number: 0033 565 77 15 62
+        \nEmail: informatique@iut-rodez.fr</string>
+    <string name="lien">Useful links </string>
+    <string name="lienCorp">
+        Email: www.mail.google.com \n
+        Planning：www.ut-capitole.fr
+        \nOther informations: etudiant.iut-rodez.fr</string>
+    <string name="session"> How to log on in computer classroom?</string>
+    <string name="sessionCorp">
+        IUT login：prenom.nom
+        \nInitial password：ddmmcccc</string>
+    <string name="service">How to use Capitole university services？</string>
+    <string name="serviceCorp">
+        www.ut-capitole.fr
+        \nReach my own space: click on ENT
+        \nCapitole login: last 8 digits of student number
+        \nCapitole password: last 6 characters of INE number FR
+</string>
+
+</resources>

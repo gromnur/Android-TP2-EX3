@@ -5,140 +5,148 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="match_parent" >
         <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
-            <ImageView
-                android:src="@drawable/logocapitole"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <ImageView
-                android:src="@drawable/logoiut"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:src="@drawable/logocapitole" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25"
+                    android:src="@drawable/logoiut" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="50"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:text="@string/departement" />
+
+            </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/msgIntro"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textStyle="bold"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="10dp"
                 android:textColor="#000000"
-                android:textSize="18sp"
-                android:text="@string/departement" />
+                android:text="@string/accesService" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/contacterIUT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:text="@string/contact" />
+
+            <TextView
+                android:id="@+id/contacterIUTcorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/contactCorp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/lienUtile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:text="@string/lien" />
+
+            <TextView
+                android:id="@+id/lienUtileCorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/lienCorp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/ouvertureSession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:text="@string/session" />
+
+            <TextView
+                android:id="@+id/ouvertureSessionCorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/sessionCorp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/utiliserService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="#000000"
+                android:text="@string/service" />
+
+            <TextView
+                android:id="@+id/utiliserServiceCorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/serviceCorp" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/msgIntro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:text="@string/accesService" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dip"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="15dip"
-            android:background="#0000FF" />
-
-        <TextView
-            android:id="@+id/contacterIUT"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:text="@string/contact" />
-
-        <TextView
-            android:id="@+id/contacterIUTcorp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:padding="10dip"
-            android:text="@string/contactCorp" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dip"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="15dip"
-            android:background="#0000FF" />
-
-        <TextView
-            android:id="@+id/lienUtile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:text="@string/lien" />
-
-        <TextView
-            android:id="@+id/lienUtileCorp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:padding="10dip"
-            android:text="@string/lienCorp" />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dip"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="15dip"
-            android:background="#0000FF" />
-
-        <TextView
-            android:id="@+id/ouvertureSession"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:text="@string/session" />
-
-        <TextView
-            android:id="@+id/ouvertureSessionCorp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:padding="10dip"
-            android:text="@string/sessionCorp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dip"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="15dip"
-            android:background="#0000FF" />
-
-        <TextView
-            android:id="@+id/utiliserService"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="#000000"
-            android:text="@string/service" />
-
-        <TextView
-            android:id="@+id/utiliserServiceCorp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="start"
-            android:padding="10dip"
-            android:text="@string/serviceCorp" />
-
-    </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
