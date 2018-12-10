@@ -7,21 +7,32 @@
         IUT phone number: 0033 565 77 10 80
         \nSecretary\'s office phone number: 0033 565 77 15 62
         \nEmail: informatique@iut-rodez.fr</string>
+
     <string name="lien">Useful links </string>
     <string name="lienCorp">
         Email: www.mail.google.com \n
         Planning：www.ut-capitole.fr
         \nOther informations: etudiant.iut-rodez.fr</string>
+
     <string name="session"> How to log on in computer classroom?</string>
     <string name="sessionCorp">
         IUT login：prenom.nom
         \nInitial password：ddmmcccc</string>
+
     <string name="service">How to use Capitole university services？</string>
-    <string name="serviceCorp">
-        www.ut-capitole.fr
+    <string name="serviceCorp">www.ut-capitole.fr
         \nReach my own space: click on ENT
         \nCapitole login: last 8 digits of student number
-        \nCapitole password: last 6 characters of INE number FR
-</string>
+        \nCapitole password: last 6 characters of INE number FR</string>
+
+    <string name="lieuImportant">Important places</string>
+    <string name="lieuImportantCorp">Bourran : 50 Avenue de Bordeaux, 12000 Rodez
+        \nUniversity restorant : 4 Rue Maréchal Leclerc de Hautecloque
+        \nIntermarché : Rue du Faubourg Lô Barri
+        \nMJC : 1 Rue Saint-Cyrice</string>
+
+    <string name="foyer">Foyer</string>
+    <string name="foyerCorp">Foyer bourran : Avenue de Saint-Pierre
+        \nRÉSIDENCE LES CAPUCINES : 26 Boulevard des Capucines</string>
 
 </resources>

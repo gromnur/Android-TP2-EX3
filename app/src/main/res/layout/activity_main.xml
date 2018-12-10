@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -18,17 +15,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="25"
-                    android:src="@drawable/logocapitole" />
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="25"
-                    android:src="@drawable/logoiut" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -65,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textStyle="bold|italic"
-                android:textColor="#000000"
+                android:textColor="@color/titre"
                 android:text="@string/contact" />
 
             <TextView
@@ -88,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textStyle="bold|italic"
-                android:textColor="#000000"
+                android:textColor="@color/titre"
                 android:text="@string/lien" />
 
             <TextView
@@ -111,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textStyle="bold|italic"
-                android:textColor="#000000"
+                android:textColor="@color/titre"
                 android:text="@string/session" />
 
             <TextView
@@ -135,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textStyle="bold|italic"
-                android:textColor="#000000"
+                android:textColor="@color/titre"
                 android:text="@string/service" />
 
             <TextView
@@ -144,9 +131,56 @@
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:padding="10dip"
-                android:text="@string/serviceCorp" />
+                android:text="@string/serviceCorp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/lieuImportant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="@color/titre"
+                android:text="@string/lieuImportant" />
+
+            <TextView
+                android:id="@+id/lieuImportantCorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/lieuImportantCorp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_marginTop="@dimen/marge_vertical"
+                android:layout_marginBottom="@dimen/marge_vertical"
+                android:background="#0000FF" />
+
+            <TextView
+                android:id="@+id/foyer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold|italic"
+                android:textColor="@color/titre"
+                android:text="@string/foyer" />
+
+            <TextView
+                android:id="@+id/foyerCorp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="10dip"
+                android:text="@string/foyerCorp" />
 
         </LinearLayout>
-    </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

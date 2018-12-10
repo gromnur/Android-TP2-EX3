@@ -7,19 +7,32 @@
         Téléphone IUT : 05.65.77.10.80
         \nTéléphone secrétariat : 05.65.77.15.62
         \nEmail : informatique@iut-rodez.fr</string>
+
     <string name="lien">Lien utiles</string>
     <string name="lienCorp">
         Messagerie : www.mail.google.com
         \nEmploi du temps : www.ut-capitole.fr
         \nPortailétudiant : etudiant.iut-rodez.fr"</string>
+
     <string name="session">Ouvrir une session dans une salle machine</string>
     <string name="sessionCorp">
         Identifiant IUT : prenom.nom
         \nMot de passe initial : jjmmcccc</string>
+
     <string name="service">Utiliser les services de l\'Université Capitole</string>
     <string name="serviceCorp">www.ut-capitole.fr
         \nAccéderàmon espace : cliquer sur ENT
         \nIdentifiant Capitole : 8 derniers chiffres numéro étudiant
         \nMot de passe Capitole : 6 derniers caractères numéro INE</string>
+
+    <string name="lieuImportant">Lieu Important</string>
+    <string name="lieuImportantCorp">IUT Rodez : 50 Avenue de Bordeaux, 12000 Rodez
+        \nLe restorant universitaire : 4 Rue Maréchal Leclerc de Hautecloque
+        \nIntermarché : Rue du Faubourg Lô Barri
+        \nMJC : 1 Rue Saint-Cyrice</string>
+
+    <string name="foyer">Foyer</string>
+    <string name="foyerCorp">Foyer bourran : Avenue de Saint-Pierre
+        \nRÉSIDENCE LES CAPUCINES : 26 Boulevard des Capucines</string>
 
 </resources>
